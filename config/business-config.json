@@ -1,0 +1,64 @@
+{
+  "restaurant": {
+    "name": "IMPERIUM Restaurant",
+    "wordmark": "IMPERIUM",
+    "tagline": "A Royal Feast of Flavours",
+    "subheading": "A culinary sanctuary where authentic Indian royal spices, fragrant Arabian Mandi & grills, and vibrant Indo-Chinese creations unite under one roof in Qatar.",
+    "phone": "+974 5105 3510",
+    "whatsapp": "+97451053510",
+    "crNumber": "229987",
+    "email": "orders@imperiumqatar.com",
+    "emailPlaceholder": "[ADD RESTAURANT EMAIL]",
+    "currency": "QAR",
+    "rating": 4.6,
+    "reviewCount": 148,
+    "address": "Al Amir Street, Fereej Al Soudan, Al Rayyan, Qatar",
+    "addressNote": "[ADD EXACT BUILDING / ZONE NUMBER - Client Confirmation Needed]",
+    "coordinates": {
+      "lat": 25.280512,
+      "lng": 51.4850816
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/4aE26Rc3Em4o386J8",
+    "socialLinks": {
+      "instagram": "https://instagram.com/imperium_qatar",
+      "facebook": "https://facebook.com/imperiumqatar",
+      "tiktok": "https://tiktok.com/@imperiumqatar"
+    }
+  },
+  "ordering": {
+    "minimumOrderAmount": 30,
+    "deliveryFee": 10,
+    "freeDeliveryThreshold": 100,
+    "estimatedDeliveryMinutes": 45,
+    "estimatedPickupMinutes": 20,
+    "allowPreordersWhenClosed": true,
+    "paymentMethods": {
+      "cashOnDelivery": true,
+      "payAtPickup": true,
+      "onlinePaymentEnabled": false,
+      "onlineGateway": "skipcash"
+    },
+    "deliveryZones": [
+      "Al Rayyan",
+      "Fereej Al Soudan",
+      "Al Waab",
+      "Al Sadd",
+      "Madinat Khalifa",
+      "Ain Khaled",
+      "Al Aziziyah",
+      "Msheireb / Central Doha"
+    ]
+  },
+  "openingHours": {
+    "timezone": "Asia/Qatar",
+    "schedule": {
+      "monday": { "open": "11:00", "close": "01:00", "display": "11:00 AM - 1:00 AM" },
+      "tuesday": { "open": "11:00", "close": "01:00", "display": "11:00 AM - 1:00 AM" },
+      "wednesday": { "open": "11:00", "close": "01:00", "display": "11:00 AM - 1:00 AM" },
+      "thursday": { "open": "11:00", "close": "02:00", "display": "11:00 AM - 2:00 AM" },
+      "friday": { "open": "12:30", "close": "02:00", "display": "12:30 PM - 2:00 AM" },
+      "saturday": { "open": "11:00", "close": "01:00", "display": "11:00 AM - 1:00 AM" },
+      "sunday": { "open": "11:00", "close": "01:00", "display": "11:00 AM - 1:00 AM" }
+    }
+  }
+}

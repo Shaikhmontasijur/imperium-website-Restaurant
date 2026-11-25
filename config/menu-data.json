@@ -1,0 +1,626 @@
+[
+  {
+    "id": "dish-chicken-biryani",
+    "category": "biryani",
+    "categoryName_en": "Biryani & Rice",
+    "categoryName_ar": "البرياني والأرز",
+    "name_en": "Royal Chicken Dum Biryani",
+    "name_ar": "برياني دجاج ملكي",
+    "description_en": "Slow-cooked fragrant basmati rice layered with marinated tender chicken, saffron, caramelised onions, and royal whole spices. Served with cooling cucumber raita and spicy salan.",
+    "description_ar": "أرز بسمتي عطري مطهو على نار هادئة مع دجاج متبل طري وزعفران وبصل مكرمل وتوابل ملكية، يقدم مع الرايتا والمرق.",
+    "price": 24,
+    "pricePlaceholder": "[ADD PRICE - QAR 24]",
+    "image": "/images/chicken-biryani.jpg",
+    "badge": "Bestseller",
+    "isSignature": true,
+    "available": true,
+    "calories": "780 kcal",
+    "options": [
+      {
+        "id": "portion",
+        "name": "Portion Size",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "id": "single",
+            "name": "Regular (1 Person)",
+            "price": 0
+          },
+          {
+            "id": "family",
+            "name": "Family Feast (3-4 Persons)",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "name": "Spice Level",
+        "type": "single",
+        "required": false,
+        "choices": [
+          {
+            "id": "mild",
+            "name": "Mild",
+            "price": 0
+          },
+          {
+            "id": "medium",
+            "name": "Medium Spicy",
+            "price": 0
+          },
+          {
+            "id": "spicy",
+            "name": "Authentic Hot",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": "addons",
+        "name": "Add-ons",
+        "type": "multiple",
+        "required": false,
+        "choices": [
+          {
+            "id": "extra-raita",
+            "name": "Extra Raita & Salan",
+            "price": 4
+          },
+          {
+            "id": "extra-egg",
+            "name": "Boiled Egg (2 pcs)",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-beef-biryani",
+    "category": "biryani",
+    "categoryName_en": "Biryani & Rice",
+    "categoryName_ar": "البرياني والأرز",
+    "name_en": "Nawab Beef Biryani",
+    "name_ar": "برياني لحم بقري نوابي",
+    "description_en": "Succulent chunks of prime beef marinated in house spices, layered over aromatic aged long-grain basmati rice and sealed to slow-cook to melt-in-mouth perfection.",
+    "description_ar": "قطع لحم بقري فاخرة متبلة ببهارات القصر ومطهوة مع أرز بسمتي معتق طويل الحبة.",
+    "price": 28,
+    "pricePlaceholder": "[ADD PRICE - QAR 28]",
+    "image": "/images/beef-biryani.jpg",
+    "badge": "Signature",
+    "isSignature": false,
+    "available": true,
+    "calories": "860 kcal",
+    "options": [
+      {
+        "id": "spice",
+        "name": "Spice Level",
+        "type": "single",
+        "required": false,
+        "choices": [
+          {
+            "id": "medium",
+            "name": "Medium Spicy",
+            "price": 0
+          },
+          {
+            "id": "spicy",
+            "name": "Royal Spicy",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": "addons",
+        "name": "Add-ons",
+        "type": "multiple",
+        "required": false,
+        "choices": [
+          {
+            "id": "extra-raita",
+            "name": "Extra Raita",
+            "price": 3
+          },
+          {
+            "id": "fried-onions",
+            "name": "Crispy Golden Onions & Cashews",
+            "price": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-egg-biryani",
+    "category": "biryani",
+    "categoryName_en": "Biryani & Rice",
+    "categoryName_ar": "البرياني والأرز",
+    "name_en": "Spiced Egg Biryani",
+    "name_ar": "برياني بيض متبل",
+    "description_en": "Golden roasted farm eggs seasoned with turmeric, chili, and ground spices, rested gently atop deeply aromatic saffron and mint infused biryani rice.",
+    "description_ar": "بيض محمر بتوابل الكركم والفلفل الحار موضوع على أرز البرياني المعطر بالزعفران والنعناع.",
+    "price": 18,
+    "pricePlaceholder": "[ADD PRICE - QAR 18]",
+    "image": "/images/egg-biryani.jpg",
+    "badge": "Vegetarian Option",
+    "isSignature": false,
+    "available": true,
+    "calories": "620 kcal",
+    "options": []
+  },
+  {
+    "id": "dish-kabsa-mandi",
+    "category": "biryani",
+    "categoryName_en": "Biryani & Rice",
+    "categoryName_ar": "البرياني والأرز",
+    "name_en": "Imperium Traditional Mandi / Kabsa",
+    "name_ar": "مندي / كبسة إمبيريوم التقليدية",
+    "description_en": "Authentic Arabian slow-steamed Mandi spiced rice served with your choice of golden tender charcoal chicken or fall-apart braised lamb, accompanied by zesty Daqoos tomato salsa.",
+    "description_ar": "أرز مندي عربي تقليدي مطهو على البخار مع اختيارك من الدجاج المحمر أو لحم الضأن الطري مع صلصة الدقوس.",
+    "price": 32,
+    "pricePlaceholder": "[ADD PRICE - QAR 32]",
+    "image": "/images/kabsa.jpg",
+    "badge": "Royal Special",
+    "isSignature": true,
+    "available": true,
+    "calories": "910 kcal",
+    "options": [
+      {
+        "id": "meat",
+        "name": "Meat Selection",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "id": "chicken",
+            "name": "Whole Half Chicken",
+            "price": 0
+          },
+          {
+            "id": "lamb",
+            "name": "Braised Lamb Shank / Cut",
+            "price": 16
+          }
+        ]
+      },
+      {
+        "id": "sauce",
+        "name": "Sauce & Garnish",
+        "type": "multiple",
+        "required": false,
+        "choices": [
+          {
+            "id": "daqoos",
+            "name": "Extra Daqoos Spicy Salsa",
+            "price": 3
+          },
+          {
+            "id": "garlic",
+            "name": "Creamy Garlic Toum",
+            "price": 3
+          },
+          {
+            "id": "nuts",
+            "name": "Roasted Almonds & Raisins",
+            "price": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-grilled-half-chicken",
+    "category": "grills",
+    "categoryName_en": "Grills & Charcoal",
+    "categoryName_ar": "المشاوي والفحم",
+    "name_en": "Charcoal Grilled Half Chicken",
+    "name_ar": "نصف دجاج مشوي على الفحم",
+    "description_en": "Marinated in lemon, crushed garlic, and middle-eastern herbs, flame-blistered over open charcoal. Served with house garlic toum, pickles, and hot stone-baked pita.",
+    "description_ar": "دجاج متبل بالليمون والثوم والأعشاب ومشوي على الفحم، يقدم مع الثومية والمخلل والخبز الساخن.",
+    "price": 26,
+    "pricePlaceholder": "[ADD PRICE - QAR 26]",
+    "image": "/images/grilled-chicken.jpg",
+    "badge": "Charcoal Grilled",
+    "isSignature": true,
+    "available": true,
+    "calories": "720 kcal",
+    "options": [
+      {
+        "id": "style",
+        "name": "Preparation Style",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "id": "arabic-garlic",
+            "name": "Arabic Herb & Garlic",
+            "price": 0
+          },
+          {
+            "id": "peri-peri",
+            "name": "Spicy Peri-Peri Glaze",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "sides",
+        "name": "Side Selection",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "id": "pita-fries",
+            "name": "Fresh Pita & French Fries",
+            "price": 0
+          },
+          {
+            "id": "spiced-rice",
+            "name": "Aromatic Spiced Mandi Rice",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-bbq-grilled-fish",
+    "category": "grills",
+    "categoryName_en": "Grills & Charcoal",
+    "categoryName_ar": "المشاوي والفحم",
+    "name_en": "Imperial BBQ Grilled Whole Fish",
+    "name_ar": "سمك مشوي على الفحم بخلطة إمبيريوم",
+    "description_en": "Fresh Arabian Gulf catch butterfly-split, coated in signature spiced chili-tamarind marinade, and slow-charred over hickory embers. Bursting with smoky citrus flavours.",
+    "description_ar": "سمك طازج من الخليج العربي متبل بخلطة الشطة والتمر هندي ومشوي على الفحم مع نكهات الليمون المدخنة.",
+    "price": 42,
+    "pricePlaceholder": "[ADD PRICE - QAR 42]",
+    "image": "/images/bbq-fish.jpg",
+    "badge": "Catch of the Day",
+    "isSignature": true,
+    "available": true,
+    "calories": "640 kcal",
+    "options": [
+      {
+        "id": "sides",
+        "name": "Served With",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "id": "rice",
+            "name": "Fluffy Spiced Rice & Lemon Wedges",
+            "price": 0
+          },
+          {
+            "id": "fries-bread",
+            "name": "Crisp Golden Fries & Arabic Bread",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-grilled-chicken-spiced-rice",
+    "category": "grills",
+    "categoryName_en": "Grills & Charcoal",
+    "categoryName_ar": "المشاوي والفحم",
+    "name_en": "Grilled Chicken on Spiced Rice",
+    "name_ar": "دجاج مشوي على أرز مبهر",
+    "description_en": "Tender boneless chicken breast fillets seared over glowing charcoal with Persian saffron marinade, served atop a generous platter of fragrant cardamom spiced rice.",
+    "description_ar": "قطع صدور دجاج مشوية بتتبيلة الزعفران تقدم على طبق سخي من الأرز المبهر بالهيل.",
+    "price": 30,
+    "pricePlaceholder": "[ADD PRICE - QAR 30]",
+    "image": "/images/grilled-chicken-rice.jpg",
+    "badge": "Popular",
+    "isSignature": false,
+    "available": true,
+    "calories": "790 kcal",
+    "options": []
+  },
+  {
+    "id": "dish-black-pepper-beef-fry",
+    "category": "mains",
+    "categoryName_en": "Mains & Starters",
+    "categoryName_ar": "الأطباق الرئيسية والمقبلات",
+    "name_en": "Black Pepper Beef Fry (Kerala Roast)",
+    "name_ar": "لحم بقري محمر بالفلفل الأسود",
+    "description_en": "A legendary South Indian specialty: tender beef strips slow-roasted with cracked Malabar black peppercorns, roasted coconut slivers, shallots, and fresh curry leaves.",
+    "description_ar": "لحم بقري مطهو على الطريقة الهندية مع الفلفل الأسود المطحون وقطع جوز الهند والبصل وأوراق الكاري.",
+    "price": 28,
+    "pricePlaceholder": "[ADD PRICE - QAR 28]",
+    "image": "/images/black-pepper-beef.jpg",
+    "badge": "Chef's Special",
+    "isSignature": true,
+    "available": true,
+    "calories": "680 kcal",
+    "options": [
+      {
+        "id": "bread",
+        "name": "Bread Accompaniment",
+        "type": "single",
+        "required": false,
+        "choices": [
+          {
+            "id": "none",
+            "name": "No Bread",
+            "price": 0
+          },
+          {
+            "id": "parotta",
+            "name": "2x Kerala Layered Parotta",
+            "price": 4
+          },
+          {
+            "id": "roti",
+            "name": "2x Whole Wheat Roti",
+            "price": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-beef-curry",
+    "category": "mains",
+    "categoryName_en": "Mains & Starters",
+    "categoryName_ar": "الأطباق الرئيسية والمقبلات",
+    "name_en": "Traditional Slow-Simmered Beef Curry",
+    "name_ar": "كاري اللحم البقري التقليدي",
+    "description_en": "Tender beef morsels gently braised in a thick, velvety onion, tomato, ginger, and toasted coriander gravy. Deep, hearty, and aromatic.",
+    "description_ar": "لحم بقري طري مطهو ببطء في مرق غني من الطماطم والزنجبيل والكزبرة المحمصة.",
+    "price": 26,
+    "pricePlaceholder": "[ADD PRICE - QAR 26]",
+    "image": "/images/beef-curry.jpg",
+    "badge": "",
+    "isSignature": false,
+    "available": true,
+    "calories": "710 kcal",
+    "options": []
+  },
+  {
+    "id": "dish-chicken-kadai",
+    "category": "mains",
+    "categoryName_en": "Mains & Starters",
+    "categoryName_ar": "الأطباق الرئيسية والمقبلات",
+    "name_en": "North Indian Kadai Chicken",
+    "name_ar": "دجاج كاداي الهندي",
+    "description_en": "Succulent chicken tossed in a traditional iron wok with crisp bell peppers, tomatoes, and coarsely crushed coriander seeds and dry red chilies.",
+    "description_ar": "دجاج مطهو في ووك حديدي مع الفلفل الرومي والطماطم وبذور الكزبرة المحمصة.",
+    "price": 25,
+    "pricePlaceholder": "[ADD PRICE - QAR 25]",
+    "image": "/images/chicken-kadai.jpg",
+    "badge": "",
+    "isSignature": false,
+    "available": true,
+    "calories": "650 kcal",
+    "options": []
+  },
+  {
+    "id": "dish-chicken-65",
+    "category": "mains",
+    "categoryName_en": "Mains & Starters",
+    "categoryName_ar": "الأطباق الرئيسية والمقبلات",
+    "name_en": "Crispy Imperium Chicken 65",
+    "name_ar": "دجاج 65 المقرمش",
+    "description_en": "Crispy bite-sized spiced chicken morsels deep-fried to a fiery crimson crunch and tossed with fresh green chilies, yogurt, and aromatic tempered curry leaves.",
+    "description_ar": "قطع دجاج مقرمشة بتتبيلة حارة مميزة مع الفلفل الأخضر والزبادي وأوراق الكاري العطرية.",
+    "price": 22,
+    "pricePlaceholder": "[ADD PRICE - QAR 22]",
+    "image": "/images/chicken-65.jpg",
+    "badge": "Top Starter",
+    "isSignature": false,
+    "available": true,
+    "calories": "520 kcal",
+    "options": [
+      {
+        "id": "style",
+        "name": "Serving Style",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "id": "dry",
+            "name": "Crispy Dry Snack",
+            "price": 0
+          },
+          {
+            "id": "gravy",
+            "name": "Semi-Gravy Sauce",
+            "price": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-chicken-manchurian",
+    "category": "mains",
+    "categoryName_en": "Mains & Starters",
+    "categoryName_ar": "الأطباق الرئيسية والمقبلات",
+    "name_en": "Indo-Chinese Chicken Manchurian",
+    "name_ar": "دجاج مانشوريان",
+    "description_en": "Golden crisp chicken meatballs bathed in a glossy, tangy dark soya sauce glaze with crushed garlic, fresh ginger, and chopped scallions.",
+    "description_ar": "كرات دجاج مقلية متبلة ومغموسة في صوص الصويا والثوم والزنجبيل والبصل الأخضر.",
+    "price": 24,
+    "pricePlaceholder": "[ADD PRICE - QAR 24]",
+    "image": "/images/chicken-manchurian.jpg",
+    "badge": "Indo-Chinese",
+    "isSignature": false,
+    "available": true,
+    "calories": "580 kcal",
+    "options": []
+  },
+  {
+    "id": "dish-shrimp-noodles",
+    "category": "chinese",
+    "categoryName_en": "Indo-Chinese Wok",
+    "categoryName_ar": "الووك الصيني",
+    "name_en": "Wok-Tossed Shrimp Hakka Noodles",
+    "name_ar": "نودلز الروبيان بالووك",
+    "description_en": "High-heat wok-tossed egg noodles loaded with succulent Gulf prawns, shredded cabbage, crisp carrots, and dark soy-sesame glaze.",
+    "description_ar": "نودلز محمرة على نار عالية مع روبيان الخليج الطازج والخضار المشكلة وصوص الصويا والسمسم.",
+    "price": 28,
+    "pricePlaceholder": "[ADD PRICE - QAR 28]",
+    "image": "/images/shrimp-noodles.jpg",
+    "badge": "Seafood Delight",
+    "isSignature": false,
+    "available": true,
+    "calories": "690 kcal",
+    "options": [
+      {
+        "id": "spice",
+        "name": "Chili Sauce Level",
+        "type": "single",
+        "required": false,
+        "choices": [
+          {
+            "id": "classic",
+            "name": "Classic Hakka (Mild)",
+            "price": 0
+          },
+          {
+            "id": "schezwan",
+            "name": "Fiery Schezwan Chili",
+            "price": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-double-chicken-cheese-burger",
+    "category": "burgers",
+    "categoryName_en": "Burgers & Fast Food",
+    "categoryName_ar": "البرغر والوجبات السريعة",
+    "name_en": "Double Chicken Cheese Burger",
+    "name_ar": "دبل تشيكن تشيز برغر",
+    "description_en": "Twin crispy breaded chicken breasts stacked high with melted American cheddar, crunchy iceberg lettuce, pickled gherkins, and smoked secret house sauce in a toasted brioche bun.",
+    "description_ar": "قطعتان من صدور الدجاج المقرمشة مع الجبنة الأمريكية الذائبة والخس والصلصة الخاصة في خبز البريوش المحمص.",
+    "price": 24,
+    "pricePlaceholder": "[ADD PRICE - QAR 24]",
+    "image": "/images/burger.jpg",
+    "badge": "Loaded Burger",
+    "isSignature": true,
+    "available": true,
+    "calories": "890 kcal",
+    "options": [
+      {
+        "id": "meal",
+        "name": "Make it a Meal",
+        "type": "single",
+        "required": false,
+        "choices": [
+          {
+            "id": "sandwich-only",
+            "name": "Burger Only",
+            "price": 0
+          },
+          {
+            "id": "combo-meal",
+            "name": "Combo: Crinkle Fries & Soft Drink",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "id": "extras",
+        "name": "Extra Toppings",
+        "type": "multiple",
+        "required": false,
+        "choices": [
+          {
+            "id": "extra-cheese",
+            "name": "Extra Cheddar Slice",
+            "price": 3
+          },
+          {
+            "id": "jalapenos",
+            "name": "Spicy Pickled Jalapeños",
+            "price": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dish-beef-burger",
+    "category": "burgers",
+    "categoryName_en": "Burgers & Fast Food",
+    "categoryName_ar": "البرغر والوجبات السريعة",
+    "name_en": "Imperium Gourmet Beef Burger",
+    "name_ar": "غورميه بيف برغر",
+    "description_en": "100% prime chargrilled beef patty topped with aged cheddar, caramelized balsamic onions, beef bacon jam, and garlic aioli on a buttered sesame bun.",
+    "description_ar": "شريحة لحم بقري مشوية على الفحم مع الجبنة المعتقة والبصل المكرمل وصوص الثوم الخاص.",
+    "price": 22,
+    "pricePlaceholder": "[ADD PRICE - QAR 22]",
+    "image": "/images/beef-burger.jpg",
+    "badge": "",
+    "isSignature": false,
+    "available": true,
+    "calories": "810 kcal",
+    "options": []
+  },
+  {
+    "id": "dish-grilled-chicken-burger",
+    "category": "burgers",
+    "categoryName_en": "Burgers & Fast Food",
+    "categoryName_ar": "البرغر والوجبات السريعة",
+    "name_en": "Charcoal Grilled Chicken Burger",
+    "name_ar": "برغر دجاج مشوي على الفحم",
+    "description_en": "Herb-infused flame-grilled tender chicken breast, sliced ripe tomatoes, fresh arugula, melted provolone cheese, and honey-mustard mayonnaise.",
+    "description_ar": "صدر دجاج مشوي متبل بالأعشاب مع الجبن الذائب والخضار وصوص الخردل بالعسل.",
+    "price": 20,
+    "pricePlaceholder": "[ADD PRICE - QAR 20]",
+    "image": "/images/grilled-chicken-burger.jpg",
+    "badge": "Healthy Choice",
+    "isSignature": false,
+    "available": true,
+    "calories": "590 kcal",
+    "options": []
+  },
+  {
+    "id": "dish-mint-lime-mojito",
+    "category": "drinks",
+    "categoryName_en": "Mocktails & Drinks",
+    "categoryName_ar": "المشروبات والموخيتو",
+    "name_en": "Royal Mint Lime Mojito",
+    "name_ar": "موخيتو الليمون والنعناع الملكي",
+    "description_en": "Freshly muddled garden mint, freshly squeezed zesty lime juice, organic pure cane sugar, and chilled sparkling soda poured over crushed ice crystals.",
+    "description_ar": "نعناع طازج مهروس مع عصير الليمون المنعش وسكر القصب والصودا الفوارة مع الثلج المجروش.",
+    "price": 14,
+    "pricePlaceholder": "[ADD PRICE - QAR 14]",
+    "image": "/images/mojito.jpg",
+    "badge": "Refreshing",
+    "isSignature": false,
+    "available": true,
+    "calories": "140 kcal",
+    "options": [
+      {
+        "id": "flavor",
+        "name": "Mojito Infusion",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "id": "classic",
+            "name": "Classic Lime & Fresh Mint",
+            "price": 0
+          },
+          {
+            "id": "passion",
+            "name": "Passionfruit & Lime",
+            "price": 3
+          },
+          {
+            "id": "strawberry",
+            "name": "Wild Strawberry & Mint",
+            "price": 3
+          }
+        ]
+      }
+    ]
+  }
+]

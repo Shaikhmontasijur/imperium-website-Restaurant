@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/[lang]/page": "app/[lang]/page.js",
+  "/[lang]/admin/page": "app/[lang]/admin/page.js",
+  "/[lang]/order/[orderNumber]/page": "app/[lang]/order/[orderNumber]/page.js",
+  "/[lang]/checkout/page": "app/[lang]/checkout/page.js",
+  "/api/admin/login/route": "app/api/admin/login/route.js",
+  "/api/orders/[orderNumber]/route": "app/api/orders/[orderNumber]/route.js",
+  "/api/menu/route": "app/api/menu/route.js",
+  "/api/orders/route": "app/api/orders/route.js"
+}
